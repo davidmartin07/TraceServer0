@@ -8,7 +8,7 @@ spring:
           - localhost:9092
       bindings:
         consumer-in-0:
-          destination: "test"
+          destination: "test" 
           group: "${spring.application.name}"
     function:
       definition: "consumer"
